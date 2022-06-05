@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>App de Gastos</title>
 </head>
 <body>
     <script src="main.js" type=""></script>
-    <h1>Calculadora de Gastos Individuales</h1>
-    <div class="flex-container">
-        <h3>Ingrese Nombre y Gasto💲</h3>
+    <h1 class="tit">Calculadora de Gastos Individuales</h1>
+    <h3 class="nombre_y_gastos">Ingrese el nombre y el gasto
     </div>
     <div class="flex-container">
         <input type="text" id="nombre" placeholder="Nombre">
-        <input type="text" id="gasto" placeholder="Gasto">
-        <button id="btn-add" onclick="agregar(nombre.value, gasto.value)"> Agregar </button>
+        <input type="number" id="gasto" placeholder="Gasto">
     </div>
-    <div class="flex-container" id="datos"></div>
-    <button onclick="borrar_uno()">Borrar Uno</button>
+    <div class="btns">
+        <button id="agregar" class="btn_agregar" onclick="agregar(nombre.value, gasto.value)">Agregar</button>
+        <button id="borrar" class="btn_borrar" onclick="borrar()">Borrar</button>
+    </div>
+    <div class="cuenta" id="datos"></div>
 </body>
 </html>
