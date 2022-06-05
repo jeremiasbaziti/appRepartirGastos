@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: ghostwhite;
+}
+
+.tit{
+    font-size: 28px;
+    padding: 40px 0px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #2f45ff;
+}
+
+.nombre_y_gastos{
+    font-size: 20px;
+    margin: 15px 0px 10px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px 0px 5px 0px;
+}
+
+#nombre{
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#gasto{
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0px 0px 15px 0px;
+}
+
+.btn_agregar{
+    margin: 0px 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 5px;
+    background-color: #00bb2d;
+    border-color: #00bb2d;
+    color: #fff;
+}
+
+.btn_borrar{
+    margin: 0px 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 6px;
+    background-color: #cb3234;
+    border-color: #cb3234;
+    color: #fff;
+}
+
+.cuenta{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.nom_gasto{
+    padding: 10px 200px 10px 20px;
+    font-size: 18px;
+    width: fit-content;
+    margin: 0px 10px 1px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.resultado{
+    padding: 0px 9px;
+}
+
+.aporte{
+    font-size: 17px;
+}
